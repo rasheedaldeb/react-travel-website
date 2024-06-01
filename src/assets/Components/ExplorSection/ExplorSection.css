@@ -1,0 +1,11 @@
+.explor-section {
+    width: 98.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px){
+    .explor-section {
+        flex-direction: column;
+    }
+}

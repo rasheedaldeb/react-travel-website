@@ -1,0 +1,125 @@
+.nav {
+    width:100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 5.1244vw;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: 0.3s all;
+}
+.nav img {
+    width: 160px;
+    padding-top: 10px;
+}
+.licolor {
+    color: #222;
+    font-weight: bold;
+}
+.navBg {
+    background-color: #fff;
+    box-shadow: 2px 4px 2px 0 rgba(0, 0, 0, 0.367) ;
+}
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 3.125rem;
+}
+ul a{
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav .navBtn {
+    Width:157.34px;
+    height:44.06px;
+    background-color: #DF6951;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+.nav i {
+    display: none;
+}
+.mobile {
+    display: flex;
+    justify-content: flex-end;
+}
+.mobile-nav {
+    width: 246px;
+    height: 704px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: #fff;
+    transition: 0.3s all;
+    z-index: 5;
+}
+.mobile-nav i {
+    color: #DF6951;
+    padding: 25px;
+}
+.mobile-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+.mobile-nav ul a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #222;
+}
+.mobile-nav .mobile-btn {
+    width: 150px;
+    height: 33px;
+    background-color: #DF6951;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 60px auto;
+}
+.mobile-nav .close {
+    font-size: 20px;
+}
+.menu a.active   {
+    border-bottom: 2px solid #DF6951;
+}
+@media screen and (max-width: 992px) {
+    body {
+        font-size: 10px;
+    }
+    nav .list li {
+        font-size: 15px;
+    }
+    .nav img {
+        width: 130px;
+    }
+}
+@media screen and  (max-width:768px) {
+    nav .list {
+        display: none;
+    }
+    nav .navBtn {
+        display: none;
+    }
+    .nav i {
+        display: block;
+        color: #DF6951;
+        font-size: 30px;
+    }
+    .side-bar {
+        width: 50vw;
+    }
+}

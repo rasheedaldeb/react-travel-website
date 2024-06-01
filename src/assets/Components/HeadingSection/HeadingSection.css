@@ -1,0 +1,13 @@
+.heading {
+    max-width: 728px;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h4 {
+    font-weight: 600;
+    color: #DF6951;
+}
+.heading h1 {
+    font-size: 3.125rem;
+    color: #1E1D4C;
+}

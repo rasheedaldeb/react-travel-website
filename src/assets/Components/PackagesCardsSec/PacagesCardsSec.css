@@ -1,0 +1,12 @@
+.packages-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 90px 4vw ;
+}
+@media screen and (max-width: 768px) {
+    .packages-section {
+        padding: 50px 4vw;
+    }
+}

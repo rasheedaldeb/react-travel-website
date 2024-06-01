@@ -1,0 +1,46 @@
+.plans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px  90px 9.562vw;
+    flex-wrap: wrap;
+}
+.plans .plans-info {
+    max-width: 674px;
+}
+.plans-info .heading {
+    text-align: start;
+}
+.plans-info p {
+    color: rgba(47, 47, 47, 1);
+    line-height: 31px;
+    font-size: 16px;
+}
+.plans-info .precentage {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+.precentage p {
+    color: rgba(82, 82, 82, 1);
+    font-size: 30px;
+}
+.precentage h4 {
+    color: rgba(24, 30, 75, 1);
+}
+.precentage .vecation, .precentage .hoony-moon {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+@media screen and (max-width:768px){
+    .plans img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .plans {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,49 @@
+.packagesCard {
+    width: 386px;
+    background-color: rgba(245, 243, 243, 1);
+    border-radius: 4px;
+}
+.packagesCard p, .packagesCard span {
+    font-size: 16px;
+}
+.packagesCard .package-info {
+    width: 346px;
+    margin: 20px auto;
+}
+.packagesCard .top img {
+    width: 100%;
+}
+.packagesCard .top {
+    background-color: rgba(223, 105, 81, 1);
+    border-radius: 4px;
+
+}
+.packagesCard .top .date-people {
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    color: #fff;
+}
+.date-people h4 {
+    font-weight: 400;
+}
+.packagesCard h2 {
+    color: rgba(24, 30, 75, 1);
+    padding: 10px 0;
+    font-size: 25px;
+}
+.packagesCard p:nth-child(3) {
+    color: rgba(24, 30, 75, 1) ;
+    padding-bottom: 10px;
+}
+.packagesCard .price-eval {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+}
+.price-eval .eval img {
+    padding-right: 5px;
+}

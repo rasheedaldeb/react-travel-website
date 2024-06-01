@@ -1,0 +1,21 @@
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero h1 {
+    max-width: 850px;
+    font-size: 2.875rem;
+    font-weight: 400;
+    text-align: center;
+    color: #2F2F2F;
+}
+.others {
+    font-family: "Yesteryear", cursive;
+    font-size: 7.5rem !important;
+    color: #fff !important;
+}

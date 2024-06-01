@@ -1,0 +1,40 @@
+.sightseing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 90px 0 90px 5.1244vw;
+}
+.sightseing .heading {
+    max-width: 613px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sightseing h1, .sightseing h4, .sightseing p {
+    text-align: left;
+}
+.sightseing h1 {
+    font-size: 2.4375rem;
+    margin-bottom: 20px;
+}
+.sightseing p {
+    color: rgba(47, 47, 47, 1);
+    max-width: 550.64px;
+}
+.sightseing button {
+    Width:157.34px;
+    height:44.06px;
+    background-color: #DF6951;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+@media screen and (max-width:768px){
+    .sightseing img {
+        width: 100%;
+    }
+}
